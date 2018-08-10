@@ -1,7 +1,5 @@
 package com.sashakhyzhun.dotabounty.util
 
-import org.jetbrains.annotations.NotNull
-import org.jetbrains.annotations.Nullable
 import timber.log.Timber
 
 object ThreadAwareTree : Timber.DebugTree() {

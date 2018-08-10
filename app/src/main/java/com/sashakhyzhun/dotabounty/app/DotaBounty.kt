@@ -1,4 +1,5 @@
 package com.sashakhyzhun.dotabounty.app
+
 import com.crashlytics.android.Crashlytics;
 import io.fabric.sdk.android.Fabric;
 import android.app.Application
@@ -11,7 +12,7 @@ class DotaBounty : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        Fabric.with(this, Crashlytics())
+        //Fabric.with(this, Crashlytics())
 
         if (BuildConfig.DEBUG) {
             Timber.plant(ThreadAwareTree)
